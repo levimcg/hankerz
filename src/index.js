@@ -18,9 +18,7 @@ function Hankerz(options) {
   this.linkIcon = settings.linkIcon;
 
   // If the container doesn't exist then bail
-  if (!this.container) {
-    throw new Error('The container option is required. Please provide a CSS selector.');
-  }
+  if (!this.container) return;
 
   const headingsNodeList =
     this.container.querySelectorAll(this.headingSelectors);

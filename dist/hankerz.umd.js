@@ -39,10 +39,7 @@
     this.headingSelectors = settings.headingSelectors;
     this.linkIcon = settings.linkIcon; // If the container doesn't exist then bail
 
-    if (!this.container) {
-      throw new Error('The container option is required. Please provide a CSS selector.');
-    }
-
+    if (!this.container) return;
     var headingsNodeList = this.container.querySelectorAll(this.headingSelectors);
     var headings = nodeListToArray(headingsNodeList);
     headings.forEach(function (heading) {
