@@ -1,5 +1,5 @@
 # Hankerz
-A simple vanilla JavaScript plugin for adding anchor links to headings in your static website.
+A simple vanilla JavaScript plugin for adding anchor links to headings on your static website.
 
 ## Getting started
 
