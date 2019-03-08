@@ -1,13 +1,13 @@
 {
-  "name": "Anchors",
+  "name": "Hankerz",
   "version": "0.1.0",
-  "description": "",
+  "description": "A simple vanilla JavaScript plugin for adding anchor links to headings on your static website.",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/levimcg/hankerz"
   },
   "bugs": {
-    "url": ""
+    "url": "https://github.com/levimcg/hankerz/issues"
   },
   "main": "src/index.js",
   "scripts": {
