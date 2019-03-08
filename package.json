@@ -15,8 +15,8 @@
     "js:watch": "npx rollup -w --config",
     "js:prod": "npx uglifyjs dist/hankerz.umd.js --compress --mangle -o dist/hankerz.umd.js",
     "dev": "run-p serve js:watch",
-    "build": "npx rollup --config",
-    "deploy": "npm run build && npx gh-pages -d dist"
+    "build": "npx rollup --config && npm run js:prod",
+    "deploy": "npx gh-pages -d dist"
   },
   "author": "Levi McGranahan",
   "license": "MIT",
